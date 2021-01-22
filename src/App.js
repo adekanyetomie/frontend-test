@@ -5,9 +5,9 @@ import axios from "axios";
 import "antd/dist/antd.css";
 
 const apiUrl =
-  "https://xkcd.com/info.0.json";
+  "https://cors-anywhere.herokuapp.com/https://xkcd.com/info.0.json";
 const apiUrl2 =
-  "https://xkcd.com/614/info.0.json";
+  "https://cors-anywhere.herokuapp.com/https://xkcd.com/614/info.0.json";
 
 function App() {
   const [firstComicData, setFirstComicData] = useState(null);
